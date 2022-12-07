@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "poppins", sans-serif;
+    color: rgb(17, 14, 14);
+  }
+  body {
+    background-color: #e0e5f3;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fa-brands {
+    margin: 0.1rem;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    border: 1px rgb(228, 217, 217);
+    border-radius: 30%;
+    transition: all 0.3s ease-in;
+  }
+  .fa-instagram {
+    color: #f300bc;
+  }
+  .fa-twitter {
+    color: #1da1f2;
+  }
+  .fa-whatsapp {
+    color: #2aa91c;
+  }
+  .fa-github {
+    color: #121312;
+  }
+  .fa-instagram:hover {
+    background-color: #f300bc;
+    color: white;
+    text-shadow: 0 0 25px;
+  }
+  .fa-twitter:hover {
+    background-color: #1da1f2;
+    color: white;
+    text-shadow: 0 0 25px;
+  }
+  .fa-whatsapp:hover {
+    background-color: #2aa91c;
+    color: white;
+    text-shadow: 0 0 25px;
+  }
+  .fa-github:hover {
+    background-color: #121312;
+    color: white;
+    text-shadow: 0 0 25px;
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li a{
+    display: block;
+    color: black;
+    padding: 15px 3px;
+    text-decoration: none;
+  }
+  li{
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+  }
